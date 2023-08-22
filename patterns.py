@@ -1,19 +1,24 @@
+import time
 import random
 
 def pattern_1(rows):
     for i in range(1, rows + 1):
+        time.sleep(3)
         print('* ' * i)
 
 def pattern_2(rows):
     for i in range(rows, 0, -1):
+        time.sleep(3)
         print('* ' * i)
 
 def pattern_3(rows):
     for i in range(1, rows + 1):
+        time.sleep(3)
         print(' ' * (rows - i) + '* ' * i)
 
 def pattern_4(rows):
     for i in range(rows, 0, -1):
+        time.sleep(3)
         print(' ' * (rows - i) + '* ' * i)
 
 def main():
